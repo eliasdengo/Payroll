@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="salary_reciption" targetNamespace="http://tempuri.org/salary reciption.xsd" xmlns:mstns="http://tempuri.org/salary reciption.xsd" xmlns="http://tempuri.org/salary reciption.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="payrollConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="payrollConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.payrollConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="salary_reciption" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="salary_reciption" msprop:Generator_UserDSName="salary_reciption">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="salaryreceipt" msprop:Generator_TableClassName="salaryreceiptDataTable" msprop:Generator_TableVarName="tablesalaryreceipt" msprop:Generator_TablePropName="salaryreceipt" msprop:Generator_RowDeletingName="salaryreceiptRowDeleting" msprop:Generator_RowChangingName="salaryreceiptRowChanging" msprop:Generator_RowEvHandlerName="salaryreceiptRowChangeEventHandler" msprop:Generator_RowDeletedName="salaryreceiptRowDeleted" msprop:Generator_UserTableName="salaryreceipt" msprop:Generator_RowChangedName="salaryreceiptRowChanged" msprop:Generator_RowEvArgName="salaryreceiptRowChangeEvent" msprop:Generator_RowClassName="salaryreceiptRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="baccount" msprop:Generator_ColumnVarNameInTable="columnbaccount" msprop:Generator_ColumnPropNameInRow="baccount" msprop:Generator_ColumnPropNameInTable="baccountColumn" msprop:Generator_UserColumnName="baccount" type="xs:int" />
+              <xs:element name="basicsalary" msprop:Generator_ColumnVarNameInTable="columnbasicsalary" msprop:Generator_ColumnPropNameInRow="basicsalary" msprop:Generator_ColumnPropNameInTable="basicsalaryColumn" msprop:Generator_UserColumnName="basicsalary">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="salary" msprop:Generator_ColumnVarNameInTable="columnsalary" msprop:Generator_ColumnPropNameInRow="salary" msprop:Generator_ColumnPropNameInTable="salaryColumn" msprop:Generator_UserColumnName="salary">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tallowance" msprop:Generator_ColumnVarNameInTable="columnTallowance" msprop:Generator_ColumnPropNameInRow="Tallowance" msprop:Generator_ColumnPropNameInTable="TallowanceColumn" msprop:Generator_UserColumnName="Tallowance">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mallowance" msprop:Generator_ColumnVarNameInTable="columnMallowance" msprop:Generator_ColumnPropNameInRow="Mallowance" msprop:Generator_ColumnPropNameInTable="MallowanceColumn" msprop:Generator_UserColumnName="Mallowance">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Wallowance" msprop:Generator_ColumnVarNameInTable="columnWallowance" msprop:Generator_ColumnPropNameInRow="Wallowance" msprop:Generator_ColumnPropNameInTable="WallowanceColumn" msprop:Generator_UserColumnName="Wallowance">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dr" msprop:Generator_ColumnVarNameInTable="columndr" msprop:Generator_ColumnPropNameInRow="dr" msprop:Generator_ColumnPropNameInTable="drColumn" msprop:Generator_UserColumnName="dr" type="xs:int" />
+              <xs:element name="hr" msprop:Generator_ColumnVarNameInTable="columnhr" msprop:Generator_ColumnPropNameInRow="hr" msprop:Generator_ColumnPropNameInTable="hrColumn" msprop:Generator_UserColumnName="hr" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
